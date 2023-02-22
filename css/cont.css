@@ -1,0 +1,38 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.left-menu{
+    background-color: #D9D9D9;
+    width: 100%;
+    padding: 20px;
+}
+
+.cont-btn{
+    display: grid;
+    grid-template-rows: repeat(auto-fill,50px);
+}
+
+.h3{
+    color: #262626;
+}
+
+.left-btn{
+    border: none;
+    background: none;
+    text-align: left;
+    margin-left: 30px;
+    font-size: medium;
+    height: 30px;
+    color: #464646;
+}
+.left-btn:hover{
+    color: #262626;
+    cursor: pointer;
+}
